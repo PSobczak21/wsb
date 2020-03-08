@@ -28,6 +28,12 @@ $text=<<<SHOW
         <hr>
 SHOW;
     echo $text;
+
+    //nowdoc
+    $name="Anna";
+    echo <<<'X'
+    Imie: $name
+X;
     ?>
     
 </body>
